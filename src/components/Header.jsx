@@ -24,7 +24,7 @@ export default function Header() {
                         <li
                             className={`cursor-pointer py-3 text-sm font-semibold text-gray-400 border-b-[3px] border-b-transparent ${
                                 pathMathRoute('/') &&
-                                'text-black border-b-red-600'
+                                'text-black border-b-red-500'
                             }`}
                             onClick={() => navigate('/')}>
                             Home
@@ -32,7 +32,7 @@ export default function Header() {
                         <li
                             className={`cursor-pointer py-3 text-sm font-semibold text-gray-400 border-b-[3px] border-b-transparent ${
                                 pathMathRoute('/offers') &&
-                                'text-black border-b-red-600'
+                                'text-black border-b-red-500'
                             }`}
                             onClick={() => navigate('/offers')}>
                             Offers
@@ -40,7 +40,7 @@ export default function Header() {
                         <li
                             className={`cursor-pointer py-3 text-sm font-semibold text-gray-400 border-b-[3px] border-b-transparent ${
                                 pathMathRoute('/sign-in') &&
-                                ' text-black  border-b-red-600'
+                                ' text-black  border-b-red-500'
                             }`}
                             onClick={() => navigate('/sign-in')}>
                             Sign in
